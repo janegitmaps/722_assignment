@@ -1,30 +1,12 @@
 name: assignment
 channels:
-  - jmcmurray
-  - esri
   - conda-forge
+  - defaults
 dependencies:
-  - arcpy=2.3.1.15800=py36_arcgispro_1
-  - cartopy=0.18.0=py36hd77ba2b_0
-  - fiona=1.8.13.post1=py36hd760492_0
-  - gdal=3.0.2=py36hdf43c64_0
-  - geopandas=0.8.1=py_0
-  - geotiff=1.5.1=h5770a2b_1
-  - json5=0.9.4=py36_0
-  - jupyter=1.0.0=py36_7
-  - matplotlib=3.3.1=py36_arcgispro_0
-  - notebook=6.3.0=py36haa95532_0
-  - numpy=1.15.4=py36ha559c80_0
-  - os=0.1.4=0
-  - pandas=1.1.3=py36ha925a31_0
-  - pyproj=2.6.1.post1=py36h593ac45_1
-  - python=3.6.13=h3758d61_0
-  - rasterio=1.1.0=py36h039b02d_0
-  - shapely=1.7.1=py36h210f175_0
-  - pip:
-    - landsatxplore==0.10
-    - pywin32-ctypes==0.2.0
-    - tqdm==4.60.0
-
-
+  - python=3.8.8
+  - geopandas=0.9.0
+  - cartopy=0.18.0
+  - notebook=6.2.0
+  - rasterio=1.2.0
+  - rasterstats=0.14.0
 prefix: C:\Users\e16006469\Anaconda3\envs\egm722
